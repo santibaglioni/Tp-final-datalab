@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #527085;
+}
+header {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(231, 231, 230);
+}
+
+h1 {
+    width: 500px;
+    display: block;
+    margin: auto;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgb(231, 231, 230);
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(231, 231, 230);
+}
+
+div {
+    width: 45%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+div:nth-child(2) {
+    width: 45%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}    
+
+div:nth-child(3){
+    width: 45%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+div:nth-child(4){
+    width: 45%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+div.video {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    border: 10px solid;
+    display: flex;
+}    
+h4{
+    margin: auto;
+    margin-top: 2%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 200, 243);
+    animation: cuadrado 2s 0s infinite both ;
+}
+
+img { 
+    width: 100%; 
+}
+
+video {
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a.boton {
+    margin: auto;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    background-color: rgb(235, 234, 234);
+    width: 170px;
+    height: 40px;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+a.boton:hover {
+    background-color: rgb(0, 162, 255);
+    color: rgb(18, 7, 167);
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    color: rgb(231, 231, 230);
+    border-top: 2px solid;
+    border-color: rgb(231, 231, 230);
+    padding: 10px;
+
+}
+
+
+@keyframes cuadrado{
+    0%{border-radius: 0%;}
+    50%{border-radius: 50%;}
+    100%{border-radius: 0%;}
+}
